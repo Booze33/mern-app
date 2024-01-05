@@ -13,7 +13,7 @@ const postSchema = new mongoose.Schema(
       max: 50,
     },
     firstName: {
-      type: string,
+      type: String,
       required: true,
     },
     location: String,

@@ -119,7 +119,7 @@ const Form = () => {
         setFieldValue,
         resetForm,
       }) => (
-        <form onsubmit={handleSubmit}>
+        <form onSubmit={handleSubmit}>
           <Box
           display="grid"
           gap="30px"
